@@ -11,6 +11,7 @@ node_modules
 functions/lib
 web/dist
 web/.env.local
+web/.env.example
 .firebase
 firebase-debug.log
 *.tsbuildinfo
