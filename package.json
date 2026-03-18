@@ -1,0 +1,22 @@
+{
+  "name": "broadcast-practical",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "workspaces": [
+    "web",
+    "functions"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w web",
+    "build": "npm run build -w web && npm run build -w functions",
+    "lint": "npm run lint -w web && npm run lint -w functions"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.4.0",
+    "typescript-eslint": "^8.46.3"
+  }
+}

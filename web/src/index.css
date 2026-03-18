@@ -1,0 +1,25 @@
+@import '@fontsource-variable/manrope';
+@import 'tailwindcss';
+
+:root {
+  color: #111827;
+  background:
+    radial-gradient(circle at top left, rgba(14, 165, 233, 0.18), transparent 28%),
+    radial-gradient(circle at top right, rgba(99, 102, 241, 0.14), transparent 24%),
+    linear-gradient(180deg, #f8fbff 0%, #eef4fb 52%, #f7f9fc 100%);
+  font-family: 'Manrope Variable', sans-serif;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(14, 165, 233, 0.18), transparent 28%),
+    radial-gradient(circle at top right, rgba(99, 102, 241, 0.14), transparent 24%),
+    linear-gradient(180deg, #f8fbff 0%, #eef4fb 52%, #f7f9fc 100%);
+}
+
+#root {
+  min-height: 100vh;
+}
